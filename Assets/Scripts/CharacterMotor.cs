@@ -37,7 +37,7 @@ public class CharacterMotor : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
-            RB2D.velocity = Vector2.up * JumpHeight;
+            transform.Translate(Vector2.up * 260 * Time.deltaTime, Space.World);
             Grounded = false;
         }
     }
