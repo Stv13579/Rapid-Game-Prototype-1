@@ -8,10 +8,7 @@ public class Doors : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ()
-        {
-           
-        }
+
     }
 
     public void DoorOpen()
