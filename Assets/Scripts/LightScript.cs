@@ -14,14 +14,10 @@ public class LightScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            LightToggle();
-            Debug.Log("Test");
-        }
+
     }
 
-    void LightToggle()
+    public void LightToggle() //Toggles the light off and on
     {
         spotLight.enabled = !spotLight.enabled;
     }
