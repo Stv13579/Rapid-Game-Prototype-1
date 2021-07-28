@@ -6,12 +6,14 @@ public class Lever : MonoBehaviour
 {
 
     public GameObject[] toggleObjects;
+    public Sprite[] sprites;
+    private int spriteIndex = 0;
 
     private bool inRange = false;
     // Start is called before the first frame update
     void Start()
     {
-
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = sprites[spriteIndex];
     }
 
     // Update is called once per frame
@@ -27,11 +29,15 @@ public class Lever : MonoBehaviour
     {
         foreach (GameObject toggleObject in toggleObjects)
         {
-            if (toggleObject.CompareTag("Toggleable"))
+            if (toggleObject.GetComponent<LightScript>())
             {
                 toggleObject.GetComponent<LightScript>().LightToggle();
             }
         }
+        spriteIndex += 1;
+        spriteIndex %= 2;
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = sprites[spriteIndex];
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -40,7 +46,6 @@ public class Lever : MonoBehaviour
         {
             inRange = true;
         }
-        Debug.Log("Test");
     }
 
     private void OnTriggerExit2D(Collider2D collision)
