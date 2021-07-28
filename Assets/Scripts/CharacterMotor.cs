@@ -35,11 +35,11 @@ public class CharacterMotor : MonoBehaviour
             Velo.y = Input.GetAxis("Vertical") * MovementSpeed;
         }
 
-        if(Input.GetKeyDown(KeyCode.Space) && Grounded)
-        {
-            transform.Translate(Vector2.up * 260 * Time.deltaTime, Space.World);
-            Grounded = false;
-        }
+        //if(Input.GetKeyDown(KeyCode.Space) && Grounded)
+        //{
+        //    RB2D.AddForce(Vector2.up * JumpHeight);
+        //    Grounded = false;
+        //}
     }
 
     void FixedUpdate()
@@ -66,6 +66,7 @@ public class CharacterMotor : MonoBehaviour
         if (collision.tag == "Chain")
         {
             Chain = false;
+            Velo.y = 0;
         }
     }
 }
