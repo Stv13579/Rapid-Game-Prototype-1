@@ -6,16 +6,18 @@ public class Lever : MonoBehaviour
 {
 
     public GameObject[] toggleObjects;
+
+    private bool inRange = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("e") && inRange)
         {
             ToggleLever();
         }
@@ -30,6 +32,22 @@ public class Lever : MonoBehaviour
                 toggleObject.GetComponent<LightScript>().LightToggle();
             }
         }
+    }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            inRange = true;
+        }
+        Debug.Log("Test");
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            inRange = false;
+        }
     }
 }
