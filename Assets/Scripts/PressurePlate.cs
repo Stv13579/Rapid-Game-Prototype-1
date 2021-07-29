@@ -28,6 +28,10 @@ public class PressurePlate : MonoBehaviour
                 {
                     toggleObject.GetComponent<LightScript>().LightToggle();
                 }
+                else if (toggleObject.GetComponent<MovingPillar>())
+                {
+                    toggleObject.GetComponent<MovingPillar>().movePillar();
+                }
             }
         }
 
@@ -43,6 +47,10 @@ public class PressurePlate : MonoBehaviour
                 if (toggleObject.GetComponent<LightScript>())
                 {
                     toggleObject.GetComponent<LightScript>().LightToggle();
+                }
+                else if (toggleObject.GetComponent<MovingPillar>())
+                {
+                    toggleObject.GetComponent<MovingPillar>().movePillar();
                 }
             }
         }

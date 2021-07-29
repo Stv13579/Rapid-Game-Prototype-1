@@ -33,6 +33,10 @@ public class Lever : MonoBehaviour
             {
                 toggleObject.GetComponent<LightScript>().LightToggle();
             }
+            else if (toggleObject.GetComponent<MovingPillar>())
+            {
+                toggleObject.GetComponent<MovingPillar>().movePillar();
+            }
         }
         spriteIndex += 1;
         spriteIndex %= 2;
