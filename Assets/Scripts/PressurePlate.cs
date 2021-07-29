@@ -32,6 +32,10 @@ public class PressurePlate : MonoBehaviour
                 {
                     toggleObject.GetComponent<MovingPillar>().movePillar();
                 }
+                else if (toggleObject.GetComponent<Doors>())
+                {
+                    toggleObject.GetComponent<Doors>().DoorToggle();
+                }
             }
         }
 
@@ -51,6 +55,10 @@ public class PressurePlate : MonoBehaviour
                 else if (toggleObject.GetComponent<MovingPillar>())
                 {
                     toggleObject.GetComponent<MovingPillar>().movePillar();
+                }
+                else if (toggleObject.GetComponent<Doors>())
+                {
+                    toggleObject.GetComponent<Doors>().DoorToggle();
                 }
             }
         }

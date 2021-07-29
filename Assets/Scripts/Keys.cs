@@ -15,7 +15,7 @@ public class Keys : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Door.GetComponent<Doors>().DoorOpen();
+            Door.GetComponent<Doors>().DoorToggle();
             Destroy(this.gameObject);
         }
     }

@@ -37,6 +37,10 @@ public class Lever : MonoBehaviour
             {
                 toggleObject.GetComponent<MovingPillar>().movePillar();
             }
+            else if (toggleObject.GetComponent<Doors>())
+            {
+                toggleObject.GetComponent<Doors>().DoorToggle();
+            }
         }
         spriteIndex += 1;
         spriteIndex %= 2;
