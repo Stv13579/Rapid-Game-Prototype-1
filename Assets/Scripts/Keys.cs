@@ -5,7 +5,6 @@ using UnityEngine;
 public class Keys : MonoBehaviour
 {
     public GameObject Door;
-    public bool TeleportKey = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,8 +16,8 @@ public class Keys : MonoBehaviour
 
         if(collision.tag == "Player" && this.tag == "TeleportKey")
         {
+            Door.GetComponent<CheckpointDoor>().Dooropen = true;
             Destroy(this.gameObject);
-            TeleportKey = true;
         }
     }
 }

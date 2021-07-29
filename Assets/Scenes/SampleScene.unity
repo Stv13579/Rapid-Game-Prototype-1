@@ -375,6 +375,12 @@ Transform:
   m_Father: {fileID: 1258646080}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &196486542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2604190300304782663, guid: b69a569737830d344859698da8707f97,
+    type: 3}
+  m_PrefabInstance: {fileID: 311784736}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &199212848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1192,8 +1198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d26ee8a3dcaccee49a453bdbc795314f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Door: {fileID: 0}
-  TeleportKey: 0
+  Door: {fileID: 550608093}
 --- !u!1 &490883163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,6 +1235,12 @@ Transform:
   m_Father: {fileID: 132567359}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &550608093 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 394161334757952613, guid: a97eb47ba6d441a41ba7c754c68b1118,
+    type: 3}
+  m_PrefabInstance: {fileID: 990197852}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &592539013 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7323957015296581559, guid: 6623c987c75aa5e419b5aca08e77f846,
@@ -1449,6 +1460,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1888825583}
     m_Modifications:
+    - target: {fileID: -8679362165042212603, guid: a97eb47ba6d441a41ba7c754c68b1118,
+        type: 3}
+      propertyPath: Door
+      value: 
+      objectReference: {fileID: 1382672868}
+    - target: {fileID: -8679362165042212603, guid: a97eb47ba6d441a41ba7c754c68b1118,
+        type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1665496572}
     - target: {fileID: 394161334757952613, guid: a97eb47ba6d441a41ba7c754c68b1118,
         type: 3}
       propertyPath: m_Name
@@ -1545,7 +1566,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 106328488962282373, guid: a97eb47ba6d441a41ba7c754c68b1118, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: a97eb47ba6d441a41ba7c754c68b1118, type: 3}
 --- !u!4 &703134225 stripped
 Transform:
@@ -2100,18 +2121,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 703134224}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &951919506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951919505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbdee92074aab6b42bc587e0f8402c28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &953365644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2245,20 +2254,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1602291836}
     m_Modifications:
-    - target: {fileID: 106328488962282373, guid: a97eb47ba6d441a41ba7c754c68b1118,
+    - target: {fileID: -8679362165042212603, guid: a97eb47ba6d441a41ba7c754c68b1118,
         type: 3}
       propertyPath: Door
       value: 
-      objectReference: {fileID: 311784737}
+      objectReference: {fileID: 196486542}
+    - target: {fileID: -8679362165042212603, guid: a97eb47ba6d441a41ba7c754c68b1118,
+        type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1665496572}
     - target: {fileID: 394161334757952613, guid: a97eb47ba6d441a41ba7c754c68b1118,
         type: 3}
       propertyPath: m_Name
-      value: Transition Door (1)
+      value: Transition Door
       objectReference: {fileID: 0}
     - target: {fileID: 394161334757952613, guid: a97eb47ba6d441a41ba7c754c68b1118,
         type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3531406121245489906, guid: a97eb47ba6d441a41ba7c754c68b1118,
         type: 3}
@@ -3348,6 +3362,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6774782174786319712, guid: c3a65a1e4406b2045804b494bcbd11e2,
     type: 3}
   m_PrefabInstance: {fileID: 1360594288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1382672868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2604190300304782663, guid: b69a569737830d344859698da8707f97,
+    type: 3}
+  m_PrefabInstance: {fileID: 4779145224577998867}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1395887853
 PrefabInstance:
@@ -38180,6 +38200,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1645764036}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1665496572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5038977181796454837, guid: b51bad714820a624185ff9cf236ae626,
+    type: 3}
+  m_PrefabInstance: {fileID: 561246418537422611}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1700091749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38404,6 +38430,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 790557762}
     m_Modifications:
+    - target: {fileID: -8679362165042212603, guid: a97eb47ba6d441a41ba7c754c68b1118,
+        type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1665496572}
     - target: {fileID: 394161334757952613, guid: a97eb47ba6d441a41ba7c754c68b1118,
         type: 3}
       propertyPath: m_Name
@@ -38979,8 +39010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d26ee8a3dcaccee49a453bdbc795314f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Door: {fileID: 0}
-  TeleportKey: 0
+  Door: {fileID: 951919505}
 --- !u!1001 &1938077718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39908,12 +39938,12 @@ PrefabInstance:
     - target: {fileID: 5038977181796454826, guid: b51bad714820a624185ff9cf236ae626,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.66
+      value: 113.6
       objectReference: {fileID: 0}
     - target: {fileID: 5038977181796454826, guid: b51bad714820a624185ff9cf236ae626,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.46
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5038977181796454826, guid: b51bad714820a624185ff9cf236ae626,
         type: 3}
