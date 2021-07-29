@@ -15,7 +15,7 @@ public class CharacterMotor : MonoBehaviour
     public float JumpHeight = 5.0f;
 
     // chains
-    private bool Chain = false;
+    public bool Chain = false;
 
     // movement
     private Vector2 input;
@@ -56,10 +56,7 @@ public class CharacterMotor : MonoBehaviour
         // movement on the horizontal axis
         input.x = Input.GetAxisRaw("Horizontal");
 
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            input.y = 1.0f;
-        }
+
         // flipping the sprite
         Vector3 characterScale = transform.localScale;
         if (Input.GetAxis("Horizontal") < 0) // spirte looking at the left side
@@ -73,11 +70,14 @@ public class CharacterMotor : MonoBehaviour
         transform.localScale = characterScale;
 
 
-        //if(Chain == true) // if player is in chain then it can climb up
-        //{
-        //     = Input.GetAxis("Vertical") * MovementSpeed;
-        //}
-
+        if (Chain == true) // if player is in chain then it can climb up
+        {
+            input.y = Input.GetAxis("Vertical"); //* MovementSpeed;
+        }
+        else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            input.y = 1.0f;
+        }
     }
     public bool Approx(float a, float b)
     {
@@ -131,7 +131,7 @@ public class CharacterMotor : MonoBehaviour
         if (collision.tag == "Chain")
         {
             Chain = false;
-            Velocity.y = 0.0f;
+            //Velocity.y = 0.0f;
         }
     }
 }

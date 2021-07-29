@@ -6,10 +6,13 @@ public class PressurePlate : MonoBehaviour
 {
     public GameObject[] toggleObjects;
     private int active = 0;
+    public Sprite[] sprites;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = sprites[0];
+
     }
 
     // Update is called once per frame
@@ -40,6 +43,7 @@ public class PressurePlate : MonoBehaviour
         }
 
         active += 1;
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = sprites[0];
     }
 
     private void OnTriggerExit2D(Collider2D collision) //Toggles whatever the pressure plate is connected to
@@ -61,8 +65,10 @@ public class PressurePlate : MonoBehaviour
                     toggleObject.GetComponent<Doors>().DoorToggle();
                 }
             }
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = sprites[1];
         }
         active -= 1;
+
 
     }
 }
