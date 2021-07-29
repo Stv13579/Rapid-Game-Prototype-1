@@ -5,18 +5,20 @@ using UnityEngine;
 public class Keys : MonoBehaviour
 {
     public GameObject Door;
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public bool TeleportKey = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" && this.tag == "OpenDoorKey")
         {
             Door.GetComponent<Doors>().DoorOpen();
             Destroy(this.gameObject);
+        }
+
+        if(collision.tag == "Player" && this.tag == "TeleportKey")
+        {
+            Destroy(this.gameObject);
+            TeleportKey = true;
         }
     }
 }
