@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Doors : MonoBehaviour
 {
-    public bool OpenDoor;
     // Update is called once per frame
     void Update()
     {
@@ -14,7 +13,5 @@ public class Doors : MonoBehaviour
     public void DoorOpen()
     {
         GetComponent<BoxCollider2D>().isTrigger = true;
-
-
     }
 }
