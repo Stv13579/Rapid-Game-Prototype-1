@@ -11,6 +11,9 @@ public class Doors : MonoBehaviour
 
     private bool open = false;
 
+    public Transform Door;
+    public GameObject Player;
+
     private void Start()
     {
         doorTop = this.transform.GetChild(1);
@@ -59,6 +62,18 @@ public class Doors : MonoBehaviour
         if (this.transform.GetChild(3).gameObject.name == "Lock")
         {
             this.transform.GetChild(3).gameObject.SetActive(false);
+        }
+    }
+
+    public void DoorOpen()
+    {
+        GetComponent<BoxCollider2D>().isTrigger = true;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (GetComponent<Keys>().TeleportKey == true)
+        {
+            Player.transform.position = Door.transform.position;
         }
     }
 }
