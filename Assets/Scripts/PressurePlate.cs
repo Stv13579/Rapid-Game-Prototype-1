@@ -11,7 +11,7 @@ public class PressurePlate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.gameObject.GetComponent<SpriteRenderer>().sprite = sprites[0];
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = sprites[1];
 
     }
 
