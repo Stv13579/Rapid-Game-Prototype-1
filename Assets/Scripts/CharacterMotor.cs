@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterMotor : MonoBehaviour
 {
     public Rigidbody2D RB2D;
-    private float MovementSpeed = 10.0f;
+    private float MovementSpeed = 7.0f;
 
     // variables for jumping
     public Transform GroundedBox;
