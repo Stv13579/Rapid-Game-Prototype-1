@@ -9,9 +9,12 @@ public class MainMenu : MonoBehaviour
     public AudioMixer audioMixer;
     public Transform OptionsPanel;
     public GameObject PausePanel;
+
+    public GameObject checkpoint;
     public void PlayGame()
     {
         Time.timeScale = 1;
+        checkpoint.transform.position = new Vector3(-65.0f, -12.0f, -1.0f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     public void QuitGame()

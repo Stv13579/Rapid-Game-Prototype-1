@@ -17,4 +17,9 @@ public class CheckpointDoor : MonoBehaviour
             checkpointManager.transform.position = new Vector3(Door.transform.position.x, Door.transform.position.y, -1.0f);
         }
     }
+
+    private void Start()
+    {
+        checkpointManager = GameObject.Find("Checkpoint Manager");
+    }
 }

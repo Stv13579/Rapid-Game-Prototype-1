@@ -146,6 +146,7 @@ public class CharacterMotor : MonoBehaviour
 
     void Start()
     {
+        checkpointManager = GameObject.Find("Checkpoint Manager");
         this.gameObject.transform.position = checkpointManager.transform.position;
     }
 }
