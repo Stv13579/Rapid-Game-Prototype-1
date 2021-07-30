@@ -22,4 +22,12 @@ public class CheckpointDoor : MonoBehaviour
     {
         checkpointManager = GameObject.Find("Checkpoint Manager");
     }
+
+    private void Update()
+    {
+        if (Dooropen && this.gameObject.GetComponent<SpriteRenderer>().color.a > 0)
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().color -= new Color(0.0f, 0.0f, 0.0f, 0.01f);
+        }
+    }
 }
