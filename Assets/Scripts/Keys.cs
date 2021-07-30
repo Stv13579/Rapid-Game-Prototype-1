@@ -16,7 +16,14 @@ public class Keys : MonoBehaviour
 
         if(collision.tag == "Player" && this.tag == "TeleportKey")
         {
-            Door.GetComponent<CheckpointDoor>().Dooropen = true;
+            if(Door.GetComponent<CheckpointDoor>())
+            {
+               Door.GetComponent<CheckpointDoor>().Dooropen = true;
+            }
+            if(Door.GetComponent<SceneDoor>())
+            {
+               Door.GetComponent<SceneDoor>().Dooropen = true;
+            }
             Destroy(this.gameObject);
         }
     }
