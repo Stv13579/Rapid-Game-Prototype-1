@@ -26,6 +26,7 @@ public class CharacterMotor : MonoBehaviour
     public float airmodifier = 0.5f;
     public float turnmodifier = 2.0f;
 
+    public GameObject checkpointManager;
     private void OnDrawGizmos()
     {
         Vector3[] Points = new Vector3[]
@@ -61,11 +62,11 @@ public class CharacterMotor : MonoBehaviour
         Vector3 characterScale = transform.localScale;
         if (Input.GetAxis("Horizontal") < 0) // spirte looking at the left side
         {
-            characterScale.x = -10;
+            characterScale.x = -3;
         }
         if (Input.GetAxis("Horizontal") > 0) // spirte looking at the right side
         {
-            characterScale.x = 10;
+            characterScale.x = 3;
         }
         transform.localScale = characterScale;
 
@@ -140,5 +141,11 @@ public class CharacterMotor : MonoBehaviour
             Chain = false;
             //Velocity.y = 0.0f;
         }
+    }
+
+
+    void Start()
+    {
+        this.gameObject.transform.position = checkpointManager.transform.position;
     }
 }
