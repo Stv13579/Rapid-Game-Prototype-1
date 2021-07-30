@@ -72,9 +72,9 @@ public class CharacterMotor : MonoBehaviour
 
         if (Chain == true) // if player is in chain then it can climb up
         {
-            input.y = Input.GetAxis("Vertical"); //* MovementSpeed;
+            input.y = Input.GetAxis("Vertical");// * MovementSpeed;
         }
-        else if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             input.y = 1.0f;
         }
@@ -107,6 +107,13 @@ public class CharacterMotor : MonoBehaviour
         if (input.y > 0.0f)
         {
             if (Grounded > 0.0f)
+            {
+                Vector2 velocity = RB2D.velocity;
+                velocity.y = JumpHeight;
+                RB2D.velocity = velocity;
+                Grounded = 0.0f;
+            }
+            else if (Chain)
             {
                 Vector2 velocity = RB2D.velocity;
                 velocity.y = JumpHeight;
