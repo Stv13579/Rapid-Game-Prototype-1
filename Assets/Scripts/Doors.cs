@@ -65,7 +65,7 @@ public class Doors : MonoBehaviour
     public void DoorToggle()
     {
         open = !open;
-        
+        this.GetComponent<AudioSource>().Play();
         if (this.transform.childCount >= 4)
         {
             this.transform.GetChild(3).gameObject.SetActive(false);
