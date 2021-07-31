@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
-  m_Name: yes
+  m_Name: TIleset_Ground_V1
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: -7343874622450257981, guid: fd6b94958d3885f49b77115401cb4863,
     type: 3}
