@@ -10,20 +10,15 @@ public class Keys : MonoBehaviour
     {
         if (collision.tag == "Player" && this.tag == "OpenDoorKey")
         {
-            Door.GetComponent<Doors>().DoorToggle();
+            //Door.GetComponent<Doors>().DoorToggle();
+            collision.gameObject.GetComponent<CharacterMotor>().smallKeys += 1;
             Destroy(this.gameObject);
         }
 
         if(collision.tag == "Player" && this.tag == "TeleportKey")
         {
-            if(Door.GetComponent<CheckpointDoor>())
-            {
-               Door.GetComponent<CheckpointDoor>().Dooropen = true;
-            }
-            if(Door.GetComponent<SceneDoor>())
-            {
-               Door.GetComponent<SceneDoor>().Dooropen = true;
-            }
+            //Door.GetComponent<CheckpointDoor>().Dooropen = true;
+            collision.gameObject.GetComponent<CharacterMotor>().bigKeys += 1;
             Destroy(this.gameObject);
         }
     }
