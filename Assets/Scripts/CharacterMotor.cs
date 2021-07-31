@@ -16,6 +16,8 @@ public class CharacterMotor : MonoBehaviour
 
     // chains
     public bool Chain = false;
+    public int smallKeys = 0;
+    public int bigKeys = 0;
 
     // movement
     private Vector2 input;
