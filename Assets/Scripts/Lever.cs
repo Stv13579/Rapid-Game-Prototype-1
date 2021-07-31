@@ -7,7 +7,7 @@ public class Lever : MonoBehaviour
 
     public GameObject[] toggleObjects;
     public Sprite[] sprites;
-    private int spriteIndex = 0;
+    public int spriteIndex = 0;
 
     private bool inRange = false;
     // Start is called before the first frame update
