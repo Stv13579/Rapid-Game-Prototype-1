@@ -11,10 +11,15 @@ public class MainMenu : MonoBehaviour
     public GameObject PausePanel;
 
     public GameObject checkpoint;
+
+    private void Start()
+    {
+        checkpoint = GameObject.Find("Checkpoint Manager");
+    }
     public void PlayGame()
     {
         Time.timeScale = 1;
-        checkpoint.transform.position = new Vector3(-65.0f, -12.0f, -1.0f);
+        checkpoint.transform.position = new Vector3(28.96f, -11.16f, -1.0f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     public void QuitGame()
