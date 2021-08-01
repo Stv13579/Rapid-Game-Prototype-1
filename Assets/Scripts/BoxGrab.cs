@@ -19,9 +19,11 @@ public class BoxGrab : MonoBehaviour
         {
             joint = this.gameObject.AddComponent<HingeJoint2D>();//new HingeJoint2D();
             joint.connectedBody = GameObject.Find("Character").GetComponent<Rigidbody2D>();
+            this.gameObject.GetComponent<Rigidbody2D>().mass = 1;
         }
         else if (Input.GetKeyDown("e") && joint != null)
         {
+            this.gameObject.GetComponent<Rigidbody2D>().mass = 10;
             Destroy(joint);
         }
     }
