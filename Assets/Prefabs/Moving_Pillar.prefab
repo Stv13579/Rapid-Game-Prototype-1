@@ -148,7 +148,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.17963818, y: 0.64041007}
+  m_Size: {x: 0.18, y: 0.64}
   m_EdgeRadius: 0
 --- !u!1 &227209792591257138
 GameObject:
@@ -246,6 +246,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   down: 0
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -0.64
+      outSlope: -0.64
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: -0.64
+      inSlope: -0.64
+      outSlope: -0.64
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  time: 0
 --- !u!1 &227209793011764545
 GameObject:
   m_ObjectHideFlags: 0

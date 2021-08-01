@@ -9,8 +9,10 @@ public class Doors : MonoBehaviour
     private BoxCollider2D doorTopCol;
     private BoxCollider2D doorBottomCol;
     private GameObject player;
-    public bool open = false;
     public bool inRange = false;
+    public float direction = -1.0f;
+    public AnimationCurve curve;
+    public float time = 0.0f;
     private void Start()
     {
         doorTop = this.transform.GetChild(1);
@@ -25,6 +27,8 @@ public class Doors : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        time += Time.deltaTime * direction;
+        time = Mathf.Clamp(time, 0.0f, 1.0f);
         if (Input.GetKeyDown("e") && inRange)
         {
             if (player.GetComponent<CharacterMotor>().smallKeys > 0)
@@ -33,38 +37,18 @@ public class Doors : MonoBehaviour
                 player.GetComponent<CharacterMotor>().smallKeys -= 1;
             }
         }
-        if (doorTop.localPosition.y < 0.32f && open)
-        {
-            doorTop.localPosition += new Vector3(0.0f, 0.001f, 0.0f);
-            doorTopCol.size += new Vector2(0.0f, -0.001f);
-            doorTopCol.offset += new Vector2(0.0f, -0.0005f);
+        doorTop.localPosition = new Vector3(0.0f, curve.Evaluate(time), 0.0f);
+        doorTopCol.size = new Vector2(doorTopCol.size.x, curve.Evaluate(1 - time));
+        doorTopCol.offset = new Vector2(doorTopCol.offset.x, curve.Evaluate(1 - time) / 2);
 
-        }
-        else if (doorTop.localPosition.y > 0.0f && !open)
-        {
-            doorTop.localPosition += new Vector3(0.0f, -0.001f, 0.0f);
-            doorTopCol.size += new Vector2(0.0f, 0.001f);
-            doorTopCol.offset += new Vector2(0.0f, 0.0005f);
-        }
-
-        if (doorBottom.localPosition.y > -0.32f && open)
-        {
-            doorBottom.localPosition += new Vector3(0.0f, -0.001f, 0.0f);
-            doorBottomCol.size += new Vector2(0.0f, -0.001f);
-            doorBottomCol.offset += new Vector2(0.0f, 0.0005f);
-
-        }
-        else if (doorBottom.localPosition.y < 0.0f && !open)
-        {
-            doorBottom.localPosition += new Vector3(0.0f, 0.001f, 0.0f);
-            doorBottomCol.size += new Vector2(0.0f, 0.001f);
-            doorBottomCol.offset += new Vector2(0.0f, -0.0005f);
-        }
+        doorBottom.localPosition = new Vector3(0.0f, -curve.Evaluate(time), 0.0f);
+        doorBottomCol.size = new Vector2(doorBottomCol.size.x, curve.Evaluate(1 - time));
+        doorBottomCol.offset = new Vector2(doorBottomCol.offset.x, -curve.Evaluate(1 - time) / 2);
     }
 
     public void DoorToggle()
     {
-        open = !open;
+        direction *= -1.0f;
         this.GetComponent<AudioSource>().Play();
         if (this.transform.childCount >= 4)
         {

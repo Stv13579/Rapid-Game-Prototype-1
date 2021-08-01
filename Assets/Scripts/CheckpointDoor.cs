@@ -9,14 +9,8 @@ public class CheckpointDoor : MonoBehaviour
     public bool Dooropen = false;
     public GameObject checkpointManager;
     public bool inRange;
-
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    if (Dooropen == true)
-    //    {
-
-    //    }
-    //}
+    public AnimationCurve curve;
+    public float time = 0.0f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -41,10 +35,11 @@ public class CheckpointDoor : MonoBehaviour
 
     private void Update()
     {
-        if (Dooropen && this.gameObject.GetComponent<SpriteRenderer>().color.a > 0)
+        if (time < 1.0f && Dooropen)
         {
-            this.gameObject.GetComponent<SpriteRenderer>().color -= new Color(0.0f, 0.0f, 0.0f, 0.01f);
+            time += Time.deltaTime;
         }
+
 
         if (Input.GetKeyDown("e") && inRange)
         {
@@ -59,5 +54,7 @@ public class CheckpointDoor : MonoBehaviour
                 checkpointManager.transform.position = new Vector3(Door.transform.position.x, Door.transform.position.y, -1.0f);
             }
         }
+        this.gameObject.GetComponent<SpriteRenderer>().color = new Color(1.0f, 1.0f, 1.0f, curve.Evaluate(time));
+
     }
 }
