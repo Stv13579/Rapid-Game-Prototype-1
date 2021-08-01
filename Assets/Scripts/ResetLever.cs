@@ -31,7 +31,7 @@ public class ResetLever : MonoBehaviour
         }
         foreach (GameObject pillar in Pillars)
         {
-            pillar.GetComponent<MovingPillar>().direction = 1;
+            pillar.GetComponent<MovingPillar>().direction = -1.0f;
         }
 
     }

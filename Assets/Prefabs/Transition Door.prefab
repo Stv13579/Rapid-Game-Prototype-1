@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Door: {fileID: 0}
   Player: {fileID: 5038977181796454837, guid: b51bad714820a624185ff9cf236ae626, type: 3}
-  Dooropen: 1
+  Dooropen: 0
   checkpointManager: {fileID: 0}
   inRange: 0
   curve:
