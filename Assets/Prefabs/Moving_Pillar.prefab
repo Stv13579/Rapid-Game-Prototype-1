@@ -57,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b3a1bf19e866fa048a0a9bdbe1698eee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -245,7 +245,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1da0370078eba7444a35da697fd909e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  down: 0
   curve:
     serializedVersion: 2
     m_Curve:
@@ -271,6 +270,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   time: 0
+  direction: -1
 --- !u!1 &227209793011764545
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,7 +320,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b3a1bf19e866fa048a0a9bdbe1698eee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

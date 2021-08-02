@@ -176,7 +176,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b3a1bf19e866fa048a0a9bdbe1698eee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -276,6 +276,8 @@ MonoBehaviour:
     m_Bits: 256
   JumpHeight: 10
   Chain: 0
+  smallKeys: 0
+  bigKeys: 0
   acceleration: 12
   frictioncurve:
     serializedVersion: 2
@@ -304,3 +306,4 @@ MonoBehaviour:
   stopmodifier: 2
   airmodifier: 0.5
   turnmodifier: 2
+  checkpointManager: {fileID: 0}
