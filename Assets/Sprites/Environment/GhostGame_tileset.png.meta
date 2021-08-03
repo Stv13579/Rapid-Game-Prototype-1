@@ -1,0 +1,1280 @@
+fileFormatVersion: 2
+guid: fda0e9e8be0e87c4ca29788d225ee898
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4648086060163853500
+    second: GhostGame_tileset_0
+  - first:
+      213: 2965448155719494228
+    second: GhostGame_tileset_1
+  - first:
+      213: 962911087743716720
+    second: GhostGame_tileset_2
+  - first:
+      213: -8470759351355242398
+    second: GhostGame_tileset_3
+  - first:
+      213: -2929536181711179324
+    second: GhostGame_tileset_4
+  - first:
+      213: -4938409811945869618
+    second: GhostGame_tileset_5
+  - first:
+      213: -8025044379286444798
+    second: GhostGame_tileset_6
+  - first:
+      213: -3969532926612789740
+    second: GhostGame_tileset_7
+  - first:
+      213: 4805879182651282658
+    second: GhostGame_tileset_8
+  - first:
+      213: 3166452013375762984
+    second: GhostGame_tileset_9
+  - first:
+      213: -2222851822152119419
+    second: GhostGame_tileset_10
+  - first:
+      213: -5175867177252735673
+    second: GhostGame_tileset_11
+  - first:
+      213: 3966511602644923512
+    second: GhostGame_tileset_12
+  - first:
+      213: -8675295838919340521
+    second: GhostGame_tileset_13
+  - first:
+      213: -1740147432655123571
+    second: GhostGame_tileset_14
+  - first:
+      213: -2019999262584894728
+    second: GhostGame_tileset_15
+  - first:
+      213: -6714967887438175482
+    second: GhostGame_tileset_16
+  - first:
+      213: 6916716436705429260
+    second: GhostGame_tileset_17
+  - first:
+      213: -2995525407903295690
+    second: GhostGame_tileset_18
+  - first:
+      213: -4782881122589899538
+    second: GhostGame_tileset_19
+  - first:
+      213: 1481238347285076789
+    second: GhostGame_tileset_20
+  - first:
+      213: -2849841576052264021
+    second: GhostGame_tileset_21
+  - first:
+      213: -4764727670124742912
+    second: GhostGame_tileset_22
+  - first:
+      213: 1505817697594137036
+    second: GhostGame_tileset_23
+  - first:
+      213: -3454814982039784741
+    second: GhostGame_tileset_24
+  - first:
+      213: 3754434146098538611
+    second: GhostGame_tileset_25
+  - first:
+      213: 5976499068608343103
+    second: GhostGame_tileset_26
+  - first:
+      213: -5915818503422601172
+    second: GhostGame_tileset_27
+  - first:
+      213: 1550846523315808217
+    second: GhostGame_tileset_28
+  - first:
+      213: -8268201282780775063
+    second: GhostGame_tileset_29
+  - first:
+      213: -3945804373004332300
+    second: GhostGame_tileset_30
+  - first:
+      213: 5514303443195183119
+    second: GhostGame_tileset_31
+  - first:
+      213: 8743109880742208311
+    second: GhostGame_tileset_32
+  - first:
+      213: -2101857535076183599
+    second: GhostGame_tileset_33
+  - first:
+      213: -8464070902442986435
+    second: GhostGame_tileset_34
+  - first:
+      213: -3587900001760291517
+    second: GhostGame_tileset_35
+  - first:
+      213: 6618798305434582419
+    second: GhostGame_tileset_36
+  - first:
+      213: -6905069474344441751
+    second: GhostGame_tileset_37
+  - first:
+      213: -9206452579257075148
+    second: GhostGame_tileset_38
+  - first:
+      213: 1924837376754300940
+    second: GhostGame_tileset_39
+  - first:
+      213: 4914928845671434206
+    second: GhostGame_tileset_40
+  - first:
+      213: -8179615119761725884
+    second: GhostGame_tileset_41
+  - first:
+      213: -2520666837420139459
+    second: GhostGame_tileset_42
+  - first:
+      213: -8020810755198403493
+    second: GhostGame_tileset_43
+  - first:
+      213: -2883877504535651746
+    second: GhostGame_tileset_44
+  - first:
+      213: 16063019784761657
+    second: GhostGame_tileset_45
+  - first:
+      213: -2127829302837955950
+    second: GhostGame_tileset_46
+  - first:
+      213: -8002550179581565356
+    second: GhostGame_tileset_47
+  - first:
+      213: -8235507297806901595
+    second: GhostGame_tileset_48
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 36
+  spriteBorder: {x: 36, y: 0, z: 0, w: 36}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostGame_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4431d7ada5eae7fb0800000000000000
+      internalID: -4648086060163853500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 233
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a6f71d263672920800000000000000
+      internalID: 2965448155719494228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 233
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dcf375882fc5d00800000000000000
+      internalID: 962911087743716720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 233
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26807acff31d17a80800000000000000
+      internalID: -8470759351355242398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 233
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c173743d523857d0800000000000000
+      internalID: -2929536181711179324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 233
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecea9abd07e377bb0800000000000000
+      internalID: -4938409811945869618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 233
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205e2e1d7a051a090800000000000000
+      internalID: -8025044379286444798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4162701b5d269e8c0800000000000000
+      internalID: -3969532926612789740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 197
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4df5b67a9e1b240800000000000000
+      internalID: 4805879182651282658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 197
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822359f545f71fb20800000000000000
+      internalID: 3166452013375762984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 197
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b0b408b08d621e0800000000000000
+      internalID: -2222851822152119419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 197
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7453f37a930ab28b0800000000000000
+      internalID: -5175867177252735673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 197
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874bd118941eb0730800000000000000
+      internalID: 3966511602644923512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 197
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ec9cfe5682b9780800000000000000
+      internalID: -8675295838919340521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b88c33121c9d7e0800000000000000
+      internalID: -1740147432655123571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 161
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa83138f5587f3e0800000000000000
+      internalID: -2019999262584894728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 161
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603a717a844afc2a0800000000000000
+      internalID: -6714967887438175482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 161
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07ceede3fc1dff50800000000000000
+      internalID: 6916716436705429260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 161
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63754423381cd66d0800000000000000
+      internalID: -2995525407903295690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 161
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee48b15b5facf9db0800000000000000
+      internalID: -4782881122589899538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 161
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b1d9dcd6a6e8410800000000000000
+      internalID: 1481238347285076789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3f3498f245378d0800000000000000
+      internalID: -2849841576052264021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 125
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0077dbabd6940edb0800000000000000
+      internalID: -4764727670124742912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 125
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc95891c73db5e410800000000000000
+      internalID: 1505817697594137036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 125
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd232d604180e00d0800000000000000
+      internalID: -3454814982039784741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 125
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378eccac6fd6a1430800000000000000
+      internalID: 3754434146098538611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 125
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c6ad0fc3ac0f250800000000000000
+      internalID: 5976499068608343103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 125
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2810db1a6ac6eda0800000000000000
+      internalID: -5915818503422601172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7636b32b6b58510800000000000000
+      internalID: 1550846523315808217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 89
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d3c687db2714d80800000000000000
+      internalID: -8268201282780775063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 89
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2d4e914dfad39c0800000000000000
+      internalID: -3945804373004332300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 89
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00cc5bf3cdb68c40800000000000000
+      internalID: 5514303443195183119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 89
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733e8d11d14c55970800000000000000
+      internalID: 8743109880742208311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 89
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d15e4d35b3b4d2e0800000000000000
+      internalID: -2101857535076183599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 89
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d347a2adb54998a80800000000000000
+      internalID: -8464070902442986435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345547935f7353ec0800000000000000
+      internalID: -3587900001760291517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 53
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39db26badf1badb50800000000000000
+      internalID: 6618798305434582419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 53
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9686e40d5e34c20a0800000000000000
+      internalID: -6905069474344441751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 53
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a37e3382c1c3080800000000000000
+      internalID: -9206452579257075148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 53
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08b5db556566ba10800000000000000
+      internalID: 1924837376754300940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_40
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 53
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed70196aeb5553440800000000000000
+      internalID: 4914928845671434206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_41
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 53
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4462033d26b2c7e80800000000000000
+      internalID: -8179615119761725884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c177ecddac40dd0800000000000000
+      internalID: -2520666837420139459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_43
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 17
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c34cd3d1b50b090800000000000000
+      internalID: -8020810755198403493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 17
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a996660b86af7d0800000000000000
+      internalID: -2883877504535651746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_45
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 17
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9317a4c3b31193000800000000000000
+      internalID: 16063019784761657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 17
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2923da5d58e6872e0800000000000000
+      internalID: -2127829302837955950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_47
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 17
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4566dc0d20b31f090800000000000000
+      internalID: -8002550179581565356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGame_tileset_48
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 17
+        width: 36
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae15190fb995bd80800000000000000
+      internalID: -8235507297806901595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
