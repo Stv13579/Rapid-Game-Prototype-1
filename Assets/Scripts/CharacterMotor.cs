@@ -18,6 +18,8 @@ public class CharacterMotor : MonoBehaviour
     public bool Chain = false;
     public int smallKeys = 0;
     public int bigKeys = 0;
+    public AnimationCurve curve;
+    public GameObject sprite;
 
     // movement
     private Vector2 input;
@@ -29,6 +31,12 @@ public class CharacterMotor : MonoBehaviour
     public float turnmodifier = 2.0f;
 
     public GameObject checkpointManager;
+
+    void Start()
+    {
+        checkpointManager = GameObject.Find("Checkpoint Manager");
+        this.gameObject.transform.position = checkpointManager.transform.position;
+    }
     private void OnDrawGizmos()
     {
         Vector3[] Points = new Vector3[]
@@ -58,8 +66,7 @@ public class CharacterMotor : MonoBehaviour
     {
         // movement on the horizontal axis
         input.x = Input.GetAxisRaw("Horizontal");
-
-
+        sprite.transform.position = new Vector3(sprite.transform.position.x, this.gameObject.transform.position.y + curve.Evaluate(Mathf.Sin(Time.time)), -1.0f);
         // flipping the sprite
         Vector3 characterScale = transform.localScale;
         if (Input.GetAxis("Horizontal") < 0) // spirte looking at the left side
@@ -146,9 +153,5 @@ public class CharacterMotor : MonoBehaviour
     }
 
 
-    void Start()
-    {
-        checkpointManager = GameObject.Find("Checkpoint Manager");
-        this.gameObject.transform.position = checkpointManager.transform.position;
-    }
+
 }
