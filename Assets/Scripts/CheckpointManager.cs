@@ -15,9 +15,9 @@ public class CheckpointManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown("e"))
-        //{
-        //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //}
+        if (Input.GetKeyDown("escape"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }
