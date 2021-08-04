@@ -20,14 +20,21 @@ public class CheckpointManager : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        if (Input.GetKeyDown("space"))
+    }
+    public void AllLights()
+    {
+        torches = GameObject.FindGameObjectsWithTag("Torch");
+        foreach (GameObject torch in torches)
         {
-            torches = GameObject.FindGameObjectsWithTag("Torch");
-            foreach (GameObject torch in torches)
-            {
-                torch.GetComponent<Torch>().activate();
-            }
+            torch.GetComponent<Torch>().activate();
         }
+    }
 
+    public void dimLights()
+    {
+        foreach (GameObject torch in torches)
+        {
+            torch.transform.GetChild(1).gameObject.GetComponent<Light>().intensity -= 12 * Time.deltaTime;
+        }
     }
 }
