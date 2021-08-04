@@ -22,6 +22,8 @@ public class Lever : MonoBehaviour
         if (Input.GetKeyDown("e") && inRange)
         {
             ToggleLever();
+            this.GetComponent<AudioSource>().Play();
+
         }
     }
 
