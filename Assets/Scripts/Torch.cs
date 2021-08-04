@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Torch : MonoBehaviour
 {
+
+
     public bool inRange = false;
     public static bool on = false;
     // Start is called before the first frame update
@@ -24,6 +26,7 @@ public class Torch : MonoBehaviour
             this.gameObject.transform.GetChild(1).gameObject.GetComponent<Light>().enabled = true;
             this.gameObject.transform.GetChild(0).gameObject.SetActive(true);
             on = true;
+            this.GetComponent<AudioSource>().Play();
         }
     }
 
