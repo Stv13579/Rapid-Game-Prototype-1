@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -3965405530987358721}
   m_Layer: 0
   m_Name: Torch
-  m_TagString: Untagged
+  m_TagString: Torch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,8 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
-<<<<<<< Updated upstream
-=======
+
   active: 0
 --- !u!82 &-3965405530987358721
 AudioSource:
@@ -246,7 +245,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
->>>>>>> Stashed changes
+
 --- !u!1 &6074335546560096872
 GameObject:
   m_ObjectHideFlags: 0
