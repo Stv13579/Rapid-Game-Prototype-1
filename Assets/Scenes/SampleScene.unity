@@ -21113,7 +21113,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8679362165042212603, guid: a97eb47ba6d441a41ba7c754c68b1118, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a97eb47ba6d441a41ba7c754c68b1118, type: 3}
 --- !u!4 &1194241069 stripped
 Transform:
@@ -21127,6 +21128,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1194241068}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1194241071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194241070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588a7f6f00f993443bf5177fa2aa00c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inRange: 0
 --- !u!1001 &1197922598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62364,6 +62378,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Torch (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6074335546560096874, guid: 1ab45c41c26dc9b4d967525d79048bed,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ab45c41c26dc9b4d967525d79048bed, type: 3}
