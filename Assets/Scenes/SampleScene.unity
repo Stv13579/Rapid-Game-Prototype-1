@@ -21272,7 +21272,7 @@ PrefabInstance:
     - target: {fileID: 394161334757952613, guid: a97eb47ba6d441a41ba7c754c68b1118,
         type: 3}
       propertyPath: m_Name
-      value: Transition Door (4)
+      value: EndDoor
       objectReference: {fileID: 0}
     - target: {fileID: 394161334757952613, guid: a97eb47ba6d441a41ba7c754c68b1118,
         type: 3}
@@ -21397,6 +21397,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
+--- !u!114 &1194241072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194241070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819eb49af78efb24cb8a193301c2e516, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScreen: {fileID: 1111632434}
+  Duration: 0.4
+  gameover: {fileID: 1823091813}
 --- !u!1001 &1197922598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62226,7 +62241,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823091811}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0

@@ -5,18 +5,16 @@ using UnityEngine;
 public class Endscene : MonoBehaviour
 {
     public GameObject endScreen;
-    public float Duration = 0.4f;
+    private float Duration = 3.0f;
     public CanvasGroup gameover;
     // Update is called once per frame
     void Update()
     {
    
-            endScreen.SetActive(true);
-            Fade();
-
     }
     public void Fade()
     {
+        endScreen.SetActive(true);
         StartCoroutine(DoFade(gameover, gameover.alpha, 1));
     }
 

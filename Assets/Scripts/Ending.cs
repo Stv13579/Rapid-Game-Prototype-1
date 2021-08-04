@@ -8,6 +8,7 @@ public class Ending : MonoBehaviour
     private GameObject Player;
     private GameObject checkpointManager;
 
+
     public bool inRange;
     // Start is called before the first frame update
     void Start()

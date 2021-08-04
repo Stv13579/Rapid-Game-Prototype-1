@@ -10,13 +10,14 @@ public class CameraScript : MonoBehaviour
     public float speed = 8.0f;
     public bool inGame = true;
     private GameObject checkpoint;
+    private GameObject endDoor;
     // Update is called once per frame
     void Update()
     {
         if (inGame)
         {
             transform.position = Vector3.Lerp(transform.position, TrackTransform.position + offset, speed * Time.deltaTime);
-            this.GetComponent<Camera>().orthographicSize = ((checkpoint.GetComponent<CheckpointManager>().torchesLit + checkpoint.GetComponent<CheckpointManager>().torchesLitTotal) / 9) + 3;
+            //this.GetComponent<Camera>().orthographicSize = ((checkpoint.GetComponent<CheckpointManager>().torchesLit + checkpoint.GetComponent<CheckpointManager>().torchesLitTotal) / 9) + 3;
         }
         else
         {
@@ -25,14 +26,20 @@ public class CameraScript : MonoBehaviour
             {
                 this.GetComponent<Camera>().orthographicSize += 2.0f * Time.deltaTime;
             }
+
             if (this.GetComponent<Camera>().orthographicSize >= 30.0f)
             {
                 checkpoint.GetComponent<CheckpointManager>().dimLights();
+            }
+            if (GameObject.Find("Torch").transform.GetChild(1).gameObject.GetComponent<Light>().intensity <20)
+            {
+                endDoor.GetComponent<Endscene>().Fade();
             }
         }
     }
     private void Start()
     {
         checkpoint = GameObject.Find("Checkpoint Manager");
+        endDoor = GameObject.Find("EndDoor");
     }
 }

@@ -43,3 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f75916c3edb647146a65fc07fa90d5c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  torches: []
+  torchesLit: 0
+  torchesLitTotal: 0
