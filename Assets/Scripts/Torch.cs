@@ -27,7 +27,7 @@ public class Torch : MonoBehaviour
 
             this.gameObject.transform.GetChild(1).gameObject.GetComponent<Light>().enabled = true;
             this.gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            on = true;
+            //on = true;
             this.GetComponent<AudioSource>().Play();
 
         }
