@@ -6410,7 +6410,8 @@ Transform:
   m_Father: {fileID: 1844252111}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &816432685
+
+--- !u!1 &803213608
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6422,6 +6423,7 @@ GameObject:
   - component: {fileID: 816432686}
   m_Layer: 0
   m_Name: instructions7
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6429,11 +6431,13 @@ GameObject:
   m_IsActive: 1
 --- !u!212 &816432686
 SpriteRenderer:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816432685}
+
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
