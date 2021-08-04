@@ -44,6 +44,8 @@ public class PressurePlate : MonoBehaviour
 
         active += 1;
         this.gameObject.GetComponent<SpriteRenderer>().sprite = sprites[0];
+            this.GetComponent<AudioSource>().Play();
+
     }
 
     private void OnTriggerExit2D(Collider2D collision) //Toggles whatever the pressure plate is connected to
@@ -51,7 +53,7 @@ public class PressurePlate : MonoBehaviour
         if (active == 1)
         {
             foreach (GameObject toggleObject in toggleObjects)
-            {
+            { 
                 if (toggleObject.GetComponent<LightScript>())
                 {
                     toggleObject.GetComponent<LightScript>().LightToggle();
@@ -66,6 +68,7 @@ public class PressurePlate : MonoBehaviour
                 }
             }
             this.gameObject.GetComponent<SpriteRenderer>().sprite = sprites[1];
+            
         }
         active -= 1;
 

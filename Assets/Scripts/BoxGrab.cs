@@ -20,11 +20,14 @@ public class BoxGrab : MonoBehaviour
             joint = this.gameObject.AddComponent<HingeJoint2D>();//new HingeJoint2D();
             joint.connectedBody = GameObject.Find("Character").GetComponent<Rigidbody2D>();
             this.gameObject.GetComponent<Rigidbody2D>().mass = 1;
+               this.GetComponent<AudioSource>().Play();
+            
         }
         else if (Input.GetKeyDown("e") && joint != null)
-        {
+        {  this.GetComponent<AudioSource>().Play();
             this.gameObject.GetComponent<Rigidbody2D>().mass = 10;
             Destroy(joint);
+            
         }
     }
 
@@ -32,7 +35,9 @@ public class BoxGrab : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            inRange = true;
+            inRange = true;  
+            this.GetComponent<AudioSource>().Play();
+
         }
     }
 
@@ -42,5 +47,8 @@ public class BoxGrab : MonoBehaviour
         {
             inRange = false;
         }
+        
+       //  this.GetComponent<AudioSource>().Stop();
     }
+    
 }
