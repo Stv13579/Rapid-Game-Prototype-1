@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 240145209967525020}
   - component: {fileID: 240145209967525023}
   - component: {fileID: 240145209967525730}
-  - component: {fileID: -8780629087070186630}
+  - component: {fileID: -5974287851669051461}
   m_Layer: 0
   m_Name: Lever
   m_TagString: Untagged
@@ -127,7 +127,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.13, y: 0.13}
   m_EdgeRadius: 0
---- !u!82 &-8780629087070186630
+--- !u!82 &-5974287851669051461
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,8 +137,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: e7eed7a4a856ac240a15c1cda1e3f6fb, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

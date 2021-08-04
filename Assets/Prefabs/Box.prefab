@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7323957015296581544}
   - component: {fileID: 5526154991098815680}
   - component: {fileID: 7858805880916907721}
-  - component: {fileID: 6651365601930463077}
+  - component: {fileID: 2560418126861781011}
   m_Layer: 8
   m_Name: Box
   m_TagString: Untagged
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
---- !u!82 &6651365601930463077
+--- !u!82 &2560418126861781011
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,7 +184,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 55cd207a03afe9945802cfc3954ff5f7, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.344
+  m_Volume: 0.109
   m_Pitch: 1
   Loop: 0
   Mute: 0
