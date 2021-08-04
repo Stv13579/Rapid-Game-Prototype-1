@@ -8,13 +8,11 @@ public class Torch : MonoBehaviour
 
     public bool inRange = false;
     public bool active = false;
+    private GameObject checkpoint;
     // Start is called before the first frame update
     void Start()
     {
-        if (active == true)
-        {
-
-        }
+        checkpoint = GameObject.Find("Checkpoint Manager");
     }
 
     // Update is called once per frame
@@ -29,6 +27,7 @@ public class Torch : MonoBehaviour
             this.gameObject.transform.GetChild(0).gameObject.SetActive(true);
             //on = true;
             this.GetComponent<AudioSource>().Play();
+            checkpoint.GetComponent<CheckpointManager>().torchesLit += 1;
 
         }
     }

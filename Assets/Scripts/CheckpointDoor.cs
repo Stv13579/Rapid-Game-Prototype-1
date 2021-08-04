@@ -48,12 +48,15 @@ public class CheckpointDoor : MonoBehaviour
                 Dooropen = true;
                 Player.GetComponent<CharacterMotor>().bigKeys -= 1;
                    this.GetComponent<AudioSource>().Play();
+
             }
             else if (Dooropen == true)
             {
                 Player.transform.position = new Vector3(Door.transform.position.x, Door.transform.position.y, -1.0f);
                 checkpointManager.transform.position = new Vector3(Door.transform.position.x, Door.transform.position.y, -1.0f);
-             
+                checkpointManager.GetComponent<CheckpointManager>().torchesLitTotal = checkpointManager.GetComponent<CheckpointManager>().torchesLit;
+                checkpointManager.GetComponent<CheckpointManager>().torchesLit = 0;
+
             }
         }
         this.gameObject.GetComponent<SpriteRenderer>().color = new Color(1.0f, 1.0f, 1.0f, curve.Evaluate(time));

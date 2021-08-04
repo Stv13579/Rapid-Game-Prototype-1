@@ -16,6 +16,7 @@ public class CameraScript : MonoBehaviour
         if (inGame)
         {
             transform.position = Vector3.Lerp(transform.position, TrackTransform.position + offset, speed * Time.deltaTime);
+            this.GetComponent<Camera>().orthographicSize = ((checkpoint.GetComponent<CheckpointManager>().torchesLit + checkpoint.GetComponent<CheckpointManager>().torchesLitTotal) / 9) + 3;
         }
         else
         {

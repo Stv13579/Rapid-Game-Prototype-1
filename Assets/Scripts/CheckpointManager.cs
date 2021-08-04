@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class CheckpointManager : MonoBehaviour
 {
     public GameObject[] torches;
+    public int torchesLit = 0;
+    public int torchesLitTotal = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,7 @@ public class CheckpointManager : MonoBehaviour
         if (Input.GetKeyDown("escape"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            torchesLit = 0;
         }
     }
     public void AllLights()
