@@ -5,14 +5,13 @@ using UnityEngine;
 public class Torch : MonoBehaviour
 {
     public bool inRange = false;
-    public static bool on = false;
+    public bool active = false;
     // Start is called before the first frame update
     void Start()
     {
-        if (on == true)
+        if (active == true)
         {
-            this.gameObject.transform.GetChild(1).gameObject.GetComponent<Light>().enabled = true;
-            this.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+
         }
     }
 
@@ -21,9 +20,7 @@ public class Torch : MonoBehaviour
     {
         if (Input.GetKeyDown("e") && inRange)
         {
-            this.gameObject.transform.GetChild(1).gameObject.GetComponent<Light>().enabled = true;
-            this.gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            on = true;
+            activate();
         }
     }
 
@@ -41,5 +38,12 @@ public class Torch : MonoBehaviour
         {
             inRange = false;
         }
+    }
+
+    public void activate()
+    {
+        this.gameObject.transform.GetChild(1).gameObject.GetComponent<Light>().enabled = true;
+        this.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+        active = true;
     }
 }
