@@ -439,6 +439,7 @@ MonoBehaviour:
   audioMixer: {fileID: 0}
   OptionsPanel: {fileID: 0}
   PausePanel: {fileID: 0}
+  checkpoint: {fileID: 0}
 --- !u!1 &405754638
 GameObject:
   m_ObjectHideFlags: 0

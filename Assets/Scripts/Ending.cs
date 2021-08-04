@@ -26,6 +26,10 @@ public class Ending : MonoBehaviour
         {
             GameEnding();
         }
+        if (Input.GetKeyDown("r"))
+        {
+            GameEnding();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
