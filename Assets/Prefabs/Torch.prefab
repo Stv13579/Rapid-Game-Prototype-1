@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6074335546484402004}
   m_Layer: 0
   m_Name: Torch
-  m_TagString: Untagged
+  m_TagString: Torch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
+  active: 0
 --- !u!1 &6074335546560096872
 GameObject:
   m_ObjectHideFlags: 0
